@@ -442,11 +442,63 @@
     <!-- =============MODAL JS=============== -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-close" type="button" data-modal-close>
-          <svg class="close-icon">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
+        <div class="modal-container">
+          <button class="modal-close" type="button" data-modal-close>
+            <svg class="close-icon">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <p class="modal-title">
+            Leave your contacts and we will call you back
+          </p>
+          <form class="modal-form">
+            <div class="modal-field">
+              <label class="modal-label" for="name">Name</label
+              ><input
+                class="modal-userform"
+                type="text"
+                name="username"
+                id="name"
+              />
+              <svg class="modal-icon">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+            <div class="modal-field">
+              <label class="modal-label" for="phone">Phone</label
+              ><input
+                class="modal-userform"
+                type="tel"
+                name="phone"
+                id="phone"
+              />
+              <svg class="modal-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+            <div class="modal-field">
+              <label class="modal-label" for="mail">Email</label
+              ><input
+                class="modal-userform"
+                type="email"
+                name="mail"
+                id="mail"
+              />
+              <svg class="modal-icon">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+            </div>
+            <div class="modal-field">
+              <label class="modal-label" for="comment">Comment</label
+              ><textarea
+                class="modal-commentform"
+                name="comment"
+                id="comment"
+              ></textarea>
+            </div>
+            <button class="modal-button" type="submit"></button>
+          </form>
+        </div>
       </div>
     </div>
 

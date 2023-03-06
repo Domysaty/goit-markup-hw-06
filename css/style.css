@@ -819,6 +819,7 @@ img {
   padding: 16px 32px;
   border-radius: 4px;
   background-color: var(--primary-brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--primary-bck-color);
   font-family: var(--primary-font);
   font-weight: 500;
